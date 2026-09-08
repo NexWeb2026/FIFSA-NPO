@@ -10,6 +10,7 @@ import { Button } from "../components/ui/Button";
 import { galleryImages } from "../data/programmes";
 import { organisation } from "../data/site";
 import { usePageMeta } from "../hooks/usePageMeta";
+import { images } from "../data/images";
 
 const values = [
   { title: "Care", icon: Heart, copy: "Human dignity sits at the centre of every programme and campaign." },
@@ -45,7 +46,7 @@ export function AboutPage() {
             </p>
           </Reveal>
           <Reveal delay={0.1}>
-            <img className="image-mask h-80 w-full object-cover shadow-soft sm:h-96 lg:h-[520px]" src={galleryImages[2].src} alt="FIFSA youth performance" />
+            <img className="image-mask h-80 w-full object-cover shadow-soft sm:h-96 lg:h-[520px]" src={images.team2} alt="FIFSA youth performance" />
           </Reveal>
         </Container>
       </Section>

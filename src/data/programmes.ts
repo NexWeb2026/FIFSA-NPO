@@ -83,8 +83,8 @@ export const programmes: Programme[] = [
     shortDescription: "Interactive character development for youth shaped around prophetic guidance and personal development.",
     description:
       "Ignite The Leader is a youth character development course with prophetic guidance, Qur'anic literacy, Islamic studies and personal development.",
-    heroImage: images.courses,
-    gallery: [images.courses, images.workshop],
+    heroImage: images.leader,
+    gallery: [images.leader, images.workshop],
     features: ["Prophetic guidance", "Qur'anic literacy", "Islamic studies", "Personal development"],
     eligibility: "Parents can register children for an interactive youth-focused learning experience.",
     impact: "Current cohort data can be added when available.",
@@ -101,7 +101,7 @@ export const programmes: Programme[] = [
     description:
       "FIFSA's Ramadan work uplifts, educates and supports the community through spiritual guidance, dignified Eid support, Qur'an access and shared meals.",
     heroImage: images.ramadan,
-    gallery: [images.ramadan, images.eidBoutique, images.children],
+    gallery: [images.ramadan, images.change, images.children],
     features: ["Ramadan seminar", "Orphan Eid Boutique", "Qur'an Drive", "Eid cooking project"],
     eligibility: "Open for donors, volunteers and families who want to support Ramadan community care.",
     impact: "The Orphan Eid Boutique has referenced a 400-child goal for Eid support.",
@@ -118,7 +118,7 @@ export const programmes: Programme[] = [
     description:
       "FIFSA supports orphaned and vulnerable children, including those in child-headed households, through care initiatives that restore dignity and practical support.",
     heroImage: images.children,
-    gallery: [images.children, images.eidBoutique, images.food],
+    gallery: [images.children, images.ramadan, images.food],
     features: ["Dignified child support", "Seasonal campaigns", "Food support", "Care packs"],
     eligibility: "Designed for children and households identified through FIFSA's community network.",
     impact: "Verified beneficiary totals can be added later.",
@@ -168,8 +168,8 @@ export const programmes: Programme[] = [
     shortDescription: "A collection-can initiative for schools, businesses, clubs and families to turn small change into meaningful support.",
     description:
       "Team Fusion invites supporters to place collection tins at schools, businesses, sports clubs and gatherings so small contributions become community impact.",
-    heroImage: images.change,
-    gallery: [images.change, images.food],
+    heroImage: images.change3,
+    gallery: [images.change2, images.change4, images.change3],
     features: ["Collection cans", "School participation", "Business participation", "Community fundraising"],
     eligibility: "Ideal for schools, retail counters, clubs, offices and family networks.",
     impact: "Donation totals can be added after campaign reporting.",
@@ -185,8 +185,8 @@ export const programmes: Programme[] = [
     shortDescription: "Primary and high school platforms where young voices are uplifted, faith is celebrated and talent is nurtured.",
     description:
       "FIFSA's Nasheed competitions have become meaningful community events that celebrate vocal expression, reflection, unity and youth confidence.",
-    heroImage: images.youthGroup,
-    gallery: [images.youthGroup, images.eisteddfod, images.stage],
+    heroImage: images.nasheed,
+    gallery: [images.nasheed3, images.nasheed, images.nasheed2],
     features: ["High school competition", "Primary school competition", "Faith-centred themes", "Performance confidence"],
     eligibility: "For participating schools and learners.",
     impact: "The high school competition has been described as reaching its 16th year.",
@@ -203,7 +203,7 @@ export const programmes: Programme[] = [
     description:
       "The Islamic Eisteddfod gathers learners across Cape Town in a celebration of expression, creativity and confidence.",
     heroImage: images.eisteddfod,
-    gallery: [images.eisteddfod, images.youthGroup],
+    gallery: [images.eisteddfod, images.workshop],
     features: ["Poetry", "Spoken word", "Speech", "Self-expression", "Confidence building"],
     eligibility: "For participating schools and youth entrants.",
     impact: "School participation data can be added later.",
@@ -219,8 +219,8 @@ export const programmes: Programme[] = [
     shortDescription: "Community-supported productions that bring meaningful stories to life on stage.",
     description:
       "FIFSA creates stage productions inspired by stories with lessons for young and old, made possible through local business and community support.",
-    heroImage: images.stage,
-    gallery: [images.stage, images.eisteddfod],
+    heroImage: images.nasheed3,
+    gallery: [images.stage, images.nasheed2, images.nasheed],
     features: ["Acting", "Storytelling", "Community sponsorship", "Youth performance"],
     eligibility: "Open to audiences, supporters, sponsors and participants as productions are announced.",
     impact: "Production attendance and sponsor data can be added when verified.",

@@ -37,15 +37,15 @@ export function HomePage() {
     <>
       <section className="relative overflow-hidden pt-20">
         <div className="absolute inset-0 bg-ink" />
-        <img className="absolute inset-0 h-full w-full object-cover opacity-58" src={galleryImages[0].src} alt="" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/76 to-ink/20" />
+        <img className="absolute inset-0 h-full w-full object-cover" src={galleryImages[0].src} alt="" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/30 to-ink/0 opacity-75" />
         <Container className="relative grid min-h-[680px] items-end pb-12 pt-16 sm:min-h-[720px] lg:min-h-[calc(100svh-80px)] lg:grid-cols-[1fr_0.62fr] lg:pb-16">
           <Reveal className="max-w-4xl text-white">
             <p className="mb-5 text-xs font-extrabold uppercase tracking-[0.14em] text-sun sm:text-sm">Inyameko means care.</p>
-            <h1 className="text-balance font-heading text-[clamp(3rem,14vw,4.5rem)] font-extrabold leading-[0.98] sm:text-7xl lg:text-8xl">
+            <h1 className="text-balance font-heading text-[clamp(3rem,14vw,4.5rem)] font-extrabold leading-[0.98] drop-shadow-[0_2px_12px_rgba(0,0,0,0.85)] sm:text-7xl lg:text-8xl">
               Empowering youth. Uplifting communities.
             </h1>
-            <p className="mt-6 max-w-2xl text-base leading-7 text-white/82 sm:text-lg sm:leading-8">
+            <p className="mt-6 max-w-2xl text-base leading-7 text-white/82 drop-shadow-[0_2px_12px_rgba(0,0,0,0.85)] sm:text-lg sm:leading-8">
               {organisation.name} creates opportunities for young people and supports communities through education, mentorship,
               humanitarian aid and meaningful experiences.
             </p>
@@ -59,7 +59,7 @@ export function HomePage() {
             </div>
           </Reveal>
           <Reveal delay={0.15} className="hidden self-end lg:block">
-            <div className="rounded-brand bg-white/90 p-6 shadow-soft backdrop-blur">
+            <div className="rounded-brand bg-white/90 p-6 opacity-80 shadow-soft backdrop-blur">
               <p className="text-sm font-extrabold uppercase tracking-[0.14em] text-ocean">Mission</p>
               <p className="mt-3 font-heading text-2xl font-extrabold leading-tight text-ink">{organisation.mission}</p>
             </div>

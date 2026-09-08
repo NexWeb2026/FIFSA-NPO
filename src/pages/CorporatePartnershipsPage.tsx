@@ -53,7 +53,7 @@ export function CorporatePartnershipsPage() {
         eyebrow="Corporate partnerships"
         title="Make your CSI matter."
         copy="Partner with FIFSA to support youth development, community projects, humanitarian work and meaningful event platforms in Cape Town."
-        image={galleryImages[4].src}
+        image={galleryImages[0].src}
       />
       <Section>
         <Container>

@@ -18,7 +18,7 @@ export function EventsPage() {
         eyebrow="Events"
         title="Experiences that build confidence, faith and community."
         copy="Explore FIFSA productions, competitions and youth platforms. Upcoming dates can be added as soon as they are confirmed."
-        image={galleryImages[1].src}
+        image={galleryImages[2].src}
       />
       <Section>
         <Container>

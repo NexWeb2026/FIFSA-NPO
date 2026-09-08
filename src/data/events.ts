@@ -22,9 +22,9 @@ export const events: EventItem[] = [
     description:
       "A valued community event that uplifts young voices, celebrates faith and nurtures vocal talent in a dignified space.",
     category: "Events",
-    image: images.youthGroup,
+    image: "/assets/nasheed.jpg",
     status: "Archive",
-    gallery: [images.youthGroup, images.eisteddfod],
+    gallery: [images.nasheed2, images.nasheed3],
   },
   {
     id: "islamic-youth-eisteddfod",
@@ -35,6 +35,6 @@ export const events: EventItem[] = [
     category: "Events",
     image: images.eisteddfod,
     status: "Recent",
-    gallery: [images.eisteddfod, images.youthGroup],
+    gallery: [images.eisteddfod, images.stage],
   },
 ];

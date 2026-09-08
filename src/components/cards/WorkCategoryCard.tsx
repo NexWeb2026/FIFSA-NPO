@@ -10,14 +10,19 @@ export function WorkCategoryCard({ category }: WorkCategoryCardProps) {
   const Icon = category.icon;
 
   return (
-    <Link to={`/our-work/${category.slug}`} className="group relative min-h-[320px] overflow-hidden rounded-brand bg-ink text-white sm:min-h-[360px] lg:min-h-[400px]">
-      <img
-        className="absolute inset-0 h-full w-full object-cover opacity-70 transition duration-500 group-hover:scale-105"
-        src={category.image}
-        alt={category.title}
-        loading="lazy"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/48 to-transparent" />
+    <Link
+      to={`/our-work/${category.slug}`}
+      className="group relative min-h-[320px] overflow-hidden rounded-brand bg-ink text-white sm:min-h-[360px] lg:min-h-[400px]"
+    >
+      <div className="absolute inset-0 overflow-hidden rounded-brand">
+        <img
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          src={category.image}
+          alt={category.title}
+          loading="lazy"
+        />
+      </div>
+      <div className="pointer-events-none absolute inset-0 rounded-brand bg-gradient-to-t from-ink/90 via-ink/28 to-transparent" />
       <div className="relative flex h-full min-h-[320px] flex-col justify-end p-5 sm:min-h-[360px] sm:p-6 lg:min-h-[400px]">
         <span className="mb-5 grid h-12 w-12 place-items-center rounded-brand bg-white text-ocean">
           <Icon size={24} />

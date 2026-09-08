@@ -34,7 +34,7 @@ export function Header() {
     >
       <div className="mx-auto flex h-20 max-w-[1440px] items-center gap-4 px-5 sm:px-8 lg:px-12 xl:gap-5 xl:px-16">
         <Link to="/" className="flex items-center gap-3" aria-label="FIFSA home">
-          <span className={cn("rounded-brand transition", topOfHero ? "bg-white p-1.5 shadow-soft" : "bg-white/0 p-0")}>
+          <span className="rounded-brand">
             <img className="h-12 w-auto object-contain sm:h-14" src={organisation.logo} alt="FIFSA logo" />
           </span>
           <span className={cn("hidden max-w-40 text-sm font-extrabold leading-tight transition xl:block", topOfHero ? "text-white" : "text-ink")}>

@@ -11,6 +11,7 @@ import { Button } from "../components/ui/Button";
 import { galleryImages } from "../data/programmes";
 import { organisation } from "../data/site";
 import { usePageMeta } from "../hooks/usePageMeta";
+import { images } from "../data/images";
 
 const contactSchema = z.object({
   name: z.string().min(2, "Enter your name."),
@@ -45,7 +46,7 @@ export function ContactPage() {
         eyebrow="Contact"
         title="Talk to Team Fusion."
         copy="Reach FIFSA about programmes, donations, volunteering, corporate partnerships, events or general enquiries."
-        image={galleryImages[8].src}
+        image={images.team}
       />
       <Section>
         <Container className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">

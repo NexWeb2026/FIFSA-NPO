@@ -12,15 +12,12 @@ export function WorkCategoryCard({ category }: WorkCategoryCardProps) {
   return (
     <Link
       to={`/our-work/${category.slug}`}
-      className="group relative min-h-[320px] overflow-hidden rounded-brand bg-ink text-white sm:min-h-[360px] lg:min-h-[400px]"
+      className="group relative min-h-[320px] overflow-hidden rounded-brand bg-ink bg-cover bg-center bg-no-repeat text-white transition-[background-size] duration-500 group-hover:bg-[length:105%] sm:min-h-[360px] lg:min-h-[400px]"
+      style={{
+        backgroundImage: `linear-gradient(to top, rgba(31, 37, 40, 0.88) 0%, rgba(31, 37, 40, 0.48) 48%, rgba(31, 37, 40, 0) 76%), url(${category.image})`,
+      }}
     >
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 z-0 rounded-brand bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-        style={{ backgroundImage: `url(${category.image})` }}
-      />
-      <div className="pointer-events-none absolute inset-0 z-10 rounded-brand bg-[linear-gradient(to_top,rgba(31,37,40,0.88)_0%,rgba(31,37,40,0.48)_48%,rgba(31,37,40,0)_76%)]" />
-      <div className="relative z-20 flex h-full min-h-[320px] flex-col justify-end p-5 sm:min-h-[360px] sm:p-6 lg:min-h-[400px]">
+      <div className="relative flex h-full min-h-[320px] flex-col justify-end p-5 sm:min-h-[360px] sm:p-6 lg:min-h-[400px]">
         <span className="mb-5 grid h-12 w-12 place-items-center rounded-brand bg-white text-ocean">
           <Icon size={24} />
         </span>

@@ -12,9 +12,9 @@ export function WorkCategoryCard({ category }: WorkCategoryCardProps) {
   return (
     <Link
       to={`/our-work/${category.slug}`}
-      className="group relative min-h-[320px] overflow-hidden rounded-brand bg-ink text-white sm:min-h-[360px] lg:min-h-[400px]"
+      className="group relative isolate block min-h-[320px] overflow-hidden rounded-brand bg-ink text-white sm:min-h-[360px] lg:min-h-[400px]"
     >
-      <div className="absolute inset-0 z-0 overflow-hidden ">
+      <div className="absolute inset-0 z-0 overflow-hidden rounded-brand">
         <img
           className="block h-full w-full max-w-none object-cover transition-transform duration-500 group-hover:scale-105"
           src={category.image}
